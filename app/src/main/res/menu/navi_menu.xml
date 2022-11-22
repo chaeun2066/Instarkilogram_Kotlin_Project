@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_like"
+        android:icon="@drawable/like"
+        android:title="좋아요"
+        android:visible="true"/>
+    <item
+        android:id="@+id/menu_setting"
+        android:icon="@drawable/ic_menu_set_24"
+        android:title="설정"
+        android:visible="true"/>
+    <item
+        android:id="@+id/menu_account"
+        android:icon="@drawable/ic_person_24"
+        android:title="계정 정보"
+        android:visible="true"/>
+    <item
+        android:id="@+id/menu_manage"
+        android:icon="@drawable/ic_update_24"
+        android:title="관리자 정보" />
+</menu>
