@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp">
+
+    <ImageView
+        android:id="@+id/fr2_iv_heart"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/bheart"
+        app:layout_constraintStart_toEndOf="@+id/fr2_tv_country"
+        app:layout_constraintTop_toBottomOf="@+id/fr2_iv_picture" />
+
+    <TextView
+        android:id="@+id/fr2_tv_like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="102973"
+        app:layout_constraintBottom_toBottomOf="@+id/fr2_iv_heart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/fr2_iv_heart"
+        app:layout_constraintTop_toTopOf="@+id/fr2_iv_heart" />
+
+    <ImageView
+        android:id="@+id/fr2_iv_picture"
+        android:layout_width="221dp"
+        android:layout_height="193dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/italy" />
+
+    <TextView
+        android:id="@+id/fr2_tv_country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="이탈리아"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/fr2_iv_picture"
+        app:layout_constraintTop_toBottomOf="@+id/fr2_iv_picture" />
+
+    <TextView
+        android:id="@+id/fr2_tv_place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="베니스"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/fr2_tv_country"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/fr2_tv_country"
+        app:layout_constraintTop_toBottomOf="@+id/fr2_tv_country" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
