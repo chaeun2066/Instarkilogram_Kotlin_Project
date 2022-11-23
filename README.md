@@ -11,7 +11,7 @@ Kotlin과 Android Studio를 활용한 Instarkilogram SNS App 제작
 |---|------------------|
 |OS|Windows 10 Home|
 |Language|Kotlin 213-1.7.20|
-|Editor|Android Studio 11.0.13|
+|Editor|Android Studio 11.0.13 / SQLite|
 |Github|<a href="https://github.com/chaeun2066/Instarkilogram"><img src="https://img.shields.io/badge/Github-F05032?style=flat-square&logo=github&logoColor=white"/></a> Move to Instarkilogram Repository|
 
 
